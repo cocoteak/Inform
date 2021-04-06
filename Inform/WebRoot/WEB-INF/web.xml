@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userCheck</servlet-name>
+    <servlet-class>User.userCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginCheck</servlet-name>
+    <servlet-class>User.loginCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateCheck</servlet-name>
+    <servlet-class>User.updateCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pwdCheck</servlet-name>
+    <servlet-class>User.pwdCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addFriends</servlet-name>
+    <servlet-class>Friend.addFriends</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFriends</servlet-name>
+    <servlet-class>Friend.deleteFriends</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateFriends</servlet-name>
+    <servlet-class>Friend.updateFriends</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadFile</servlet-name>
+    <servlet-class>Files.uploadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>download</servlet-name>
+    <servlet-class>Files.download</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFile</servlet-name>
+    <servlet-class>Files.deleteFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>receiptHandle</servlet-name>
+    <servlet-class>Receipt.receiptHandle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newReceipt</servlet-name>
+    <servlet-class>Receipt.newReceipt</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userCheck</servlet-name>
+    <url-pattern>/userCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginCheck</servlet-name>
+    <url-pattern>/loginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateCheck</servlet-name>
+    <url-pattern>/updateCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pwdCheck</servlet-name>
+    <url-pattern>/pwdCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addFriends</servlet-name>
+    <url-pattern>/addFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFriends</servlet-name>
+    <url-pattern>/deleteFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateFriends</servlet-name>
+    <url-pattern>/updateFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadFile</servlet-name>
+    <url-pattern>/uploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFile</servlet-name>
+    <url-pattern>/deleteFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>receiptHandle</servlet-name>
+    <url-pattern>/receiptHandle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newReceipt</servlet-name>
+    <url-pattern>/newReceipt</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
